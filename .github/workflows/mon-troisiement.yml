@@ -1,5 +1,6 @@
 name: Mon premier test 
-on:
+on: 
+  push:
     pull_request:
         types: [closed]
       
