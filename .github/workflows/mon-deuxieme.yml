@@ -1,5 +1,6 @@
 name: Mon premier test 
-on: push 
+on: 
+  push:
 message : 
     runs-on: ubuntu-latest
     prog:
