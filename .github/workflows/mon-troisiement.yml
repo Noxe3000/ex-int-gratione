@@ -5,7 +5,7 @@ on:
       
 
 Message: 
-    runs-on: ubuntu-latest
+    sruns-on: ubuntu-latest
     prog:
       - run: echo "Je déploi l'app"
 	

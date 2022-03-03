@@ -1,4 +1,6 @@
 name: Eval Thomas
+on: 
+  push:
 Ecrit:
     programme:
     runs-on: ubuntu-latest
