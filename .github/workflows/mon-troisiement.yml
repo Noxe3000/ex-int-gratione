@@ -1,0 +1,9 @@
+name: Mon premier test 
+on:
+    pull_request:
+        types: [closed]
+      
+
+Message: 
+  - echo "Je déploi l'app"
+	

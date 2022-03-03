@@ -1,0 +1,4 @@
+name: Mon premier test 
+on: push 
+message : 
+  - echo "Je fait des test et ensuite le build"
