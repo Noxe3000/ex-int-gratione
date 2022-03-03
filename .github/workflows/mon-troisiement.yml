@@ -5,5 +5,7 @@ on:
       
 
 Message: 
-  - echo "Je déploi l'app"
+    runs-on: ubuntu-latest
+    prog:
+      - run: echo "Je déploi l'app"
 	

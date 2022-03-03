@@ -1,4 +1,6 @@
 name: Mon premier test 
 on: push 
 message : 
-  - echo "Je fait des test et ensuite le build"
+    runs-on: ubuntu-latest
+    prog:
+      - run: echo "Je fait des test et ensuite le build"

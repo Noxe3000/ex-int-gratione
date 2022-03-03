@@ -1,7 +1,9 @@
 name: Eval Thomas
 Ecrit:
     programme:
-      - echo " Je fais des tests"
+    runs-on: ubuntu-latest
+    prog:
+      - run: echo " Je fais des tests"
 
 
   
